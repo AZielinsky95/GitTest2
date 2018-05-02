@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AFA62E209A2DB300E00F12 /* OtherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA62D209A2DB300E00F12 /* OtherObject.m */; };
 		CAC203BF209A272400E5F556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203BE209A272400E5F556 /* AppDelegate.m */; };
 		CAC203C2209A272400E5F556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203C1209A272400E5F556 /* ViewController.m */; };
 		CAC203C5209A272400E5F556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC203C3209A272400E5F556 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AFA62C209A2DB300E00F12 /* OtherObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherObject.h; sourceTree = "<group>"; };
+		27AFA62D209A2DB300E00F12 /* OtherObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherObject.m; sourceTree = "<group>"; };
 		CAC203BA209A272400E5F556 /* GitTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC203BD209A272400E5F556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAC203BE209A272400E5F556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				CAC203CC209A272400E5F556 /* main.m */,
 				CAC203D3209A276700E5F556 /* Color.h */,
 				CAC203D4209A276700E5F556 /* Color.m */,
+				27AFA62C209A2DB300E00F12 /* OtherObject.h */,
+				27AFA62D209A2DB300E00F12 /* OtherObject.m */,
 			);
 			path = GitTest2;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				CAC203C2209A272400E5F556 /* ViewController.m in Sources */,
 				CAC203D5209A276700E5F556 /* Color.m in Sources */,
 				CAC203CD209A272400E5F556 /* main.m in Sources */,
+				27AFA62E209A2DB300E00F12 /* OtherObject.m in Sources */,
 				CAC203BF209A272400E5F556 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
