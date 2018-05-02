@@ -13,6 +13,7 @@
 		CAC203C7209A272400E5F556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC203C6209A272400E5F556 /* Assets.xcassets */; };
 		CAC203CA209A272400E5F556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC203C8209A272400E5F556 /* LaunchScreen.storyboard */; };
 		CAC203CD209A272400E5F556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203CC209A272400E5F556 /* main.m */; };
+		CAC203D5209A276700E5F556 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203D4209A276700E5F556 /* Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CAC203C9209A272400E5F556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAC203CB209A272400E5F556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAC203CC209A272400E5F556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAC203D3209A276700E5F556 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		CAC203D4209A276700E5F556 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CAC203C8209A272400E5F556 /* LaunchScreen.storyboard */,
 				CAC203CB209A272400E5F556 /* Info.plist */,
 				CAC203CC209A272400E5F556 /* main.m */,
+				CAC203D3209A276700E5F556 /* Color.h */,
+				CAC203D4209A276700E5F556 /* Color.m */,
 			);
 			path = GitTest2;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC203C2209A272400E5F556 /* ViewController.m in Sources */,
+				CAC203D5209A276700E5F556 /* Color.m in Sources */,
 				CAC203CD209A272400E5F556 /* main.m in Sources */,
 				CAC203BF209A272400E5F556 /* AppDelegate.m in Sources */,
 			);
